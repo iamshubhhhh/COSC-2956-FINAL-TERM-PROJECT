@@ -1,0 +1,20 @@
+{
+  "name": "computer-store-website",
+  "version": "1.0.0",
+  "description": "Final Project Computer Store Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-build": "sass --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamshubhhhh"
+  },
+  "author": "shubh meet diya",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.94.0"
+  }
+}

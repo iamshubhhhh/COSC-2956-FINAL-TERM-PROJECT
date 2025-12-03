@@ -1,0 +1,17 @@
+node_modules/
+
+package-lock.json
+
+.vscode/
+
+.DS_Store
+
+Thumbs.db
+
+*.log
+
+create_admin_user.php
+
+seed_products.php
+
+

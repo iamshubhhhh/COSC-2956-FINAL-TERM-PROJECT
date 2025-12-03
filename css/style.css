@@ -1,0 +1,142 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* This will be the brand */
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.brand-gradient {
+  background: linear-gradient(90deg, #0d6efd 0%, #20c933 50%, #6f42c1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* This will be the navbar */
+.nav-link {
+  font-size: 0.95rem;
+  color: var(--bs-body-color);
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+/* This will be the cards */
+.card {
+  border-radius: 14px !important;
+}
+
+.card img {
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 12px !important;
+}
+
+/* This will be the buttons */
+.btn-dark {
+  border-radius: 10px !important;
+}
+
+/* This will be the hero Section */
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    rgba(13, 110, 253, 0.85) 0%,
+    rgba(32, 201, 51, 0.85) 100%
+  ) !important;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section .btn-outline-primary {
+  color: white !important;
+  border-color: white !important;
+}
+
+.hero-section .btn-outline-primary:hover {
+  background-color: white;
+  color: #0d6efd !important;
+}
+
+/* Video section on homepage */
+.hero-video-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.hero-video-section video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  display: block;
+}
+
+.hero-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border-radius: 12px;
+}
+
+.hero-video-content {
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+
+.hero-video-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero-video-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero-video-content .btn {
+  background-color: #0d6efd;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+}
+
+.hero-video-content .btn:hover {
+  background-color: white;
+  color: #0d6efd;
+}
